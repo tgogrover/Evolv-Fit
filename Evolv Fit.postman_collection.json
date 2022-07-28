@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "7a9b4a16-4d13-482b-a43f-75c320a38659",
+		"name": "Evolv Fit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12387678"
+	},
+	"item": [
+		{
+			"name": "create Food Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"foodItemsArray\":[\r\n    {\"Name\":\"Cabbage (Boiled)\",\r\n    \"Carb\":1,\r\n    \"Calories\":10,\r\n    \"Protein\":1,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":96\r\n    },\r\n     {\r\n    \"Name\":\"Carrot (Boiled)\",\r\n    \"Carb\":4,\r\n    \"Calories\":20,\r\n    \"Protein\":0.6,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":91\r\n    },\r\n    {\r\n    \"Name\":\"Cauliflower (Boiled)\",\r\n    \"Carb\":1,\r\n    \"Calories\":10,\r\n    \"Protein\":1.5,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":93\r\n    },\r\n     {\r\n    \"Name\":\"Cucumber (Raw)\",\r\n    \"Carb\":8,\r\n    \"Calories\":10,\r\n    \"Protein\":0.6,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":96\r\n    }, {\r\n    \"Name\":\"Peas (Boiled)\",\r\n    \"Carb\":8,\r\n    \"Calories\":50,\r\n    \"Protein\":5,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":80\r\n    },\r\n     {\"Name\":\"Tomatoes\",\r\n    \"Carb\":3,\r\n    \"Calories\":15,\r\n    \"Protein\":1,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":83\r\n    },\r\n     {\r\n    \"Name\":\"Potatoes (Boiled)\",\r\n    \"Carb\":22,\r\n    \"Calories\":80,\r\n    \"Protein\":1,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":77\r\n    },\r\n    {\r\n    \"Name\":\"Apples\",\r\n    \"Carb\":12,\r\n    \"Calories\":45,\r\n    \"Protein\":0.3,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":84\r\n    },\r\n     {\r\n    \"Name\":\"Bananas\",\r\n    \"Carb\":20,\r\n    \"Calories\":80,\r\n    \"Protein\":1,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":70\r\n    }, {\r\n    \"Name\":\"Grapes\",\r\n    \"Carb\":12,\r\n    \"Calories\":60,\r\n    \"Protein\":0.6,\r\n    \"Fat\":0,\r\n    \"AcceptedUnits\":\"g\",\r\n    \"ItemWeight\":81\r\n    }\r\n   \r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/create/foodItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"create",
+						"foodItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Meal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Weight Losing Meal 1\",\r\n    \"Category\":\"Breakfast\",\r\n    \"FoodItems\":[{\r\n    \"FoodId\":\"62dd3d89f0505734904464f0\",\r\n    \"Quantity\":\"200g\"\r\n    }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/create/meal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"create",
+						"meal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Meal",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\":\"62de557e3dd2111e38066c52\",\r\n   \r\n    \"FoodItems\":[{\r\n    \"FoodId\":\"62dd3dadf0505734904464f2\",\r\n    \"Quantity\":\"250g\"\r\n    },\r\n    {\r\n    \"FoodId\":\"62dd3d89f0505734904464f0\",\r\n    \"Quantity\":\"50g\"\r\n    }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/update/meal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"update",
+						"meal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update meal plan",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \r\n    \"_id\":\"62dea6e32a7cb2fbd826a9ed\",\r\n    \"CalorieRequirement\":55,\r\n    \"MealPlan\":[\r\n        {\r\n            \"Day\":\"Tuesday\",\r\n            \"Meals\":\"62de557e3dd2111e38066c52\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/update/mealPlan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"update",
+						"mealPlan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Meal Plan for User ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Manish grover\",\r\n    \"Email\":\"ramk6752@gmail.com\",\r\n    \"CalorieRequirement\":50,\r\n    \"MealPlan\":[\r\n        {\r\n            \"Day\":\"Tuesday\",\r\n            \"Meals\":\"62de599203a8b475eda85f6a\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/create/mealPlan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"create",
+						"mealPlan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Algorithm for meal based on calories",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiYWN0aXZhdGVkIjpmYWxzZSwiaWF0IjoxNjU2NjYyMDQ0LCJleHAiOjE2NTY3NDg0NDR9.ECBJ3Xb1OPbbZTP1q82IdqlCrYnOsiS06s1m-HB0i7s",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/meal/algorithm?quantity=4.6&amount=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"meal",
+						"algorithm"
+					],
+					"query": [
+						{
+							"key": "quantity",
+							"value": "4.6"
+						},
+						{
+							"key": "calories",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "amount",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

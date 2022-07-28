@@ -1,0 +1,21 @@
+{
+  "name": "EVOLV BACKEND",
+  "version": "1.0.0",
+  "description": "EVOLV_assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lets's",
+    "start"
+  ],
+  "author": "tushar grover",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.6"
+  }
+}

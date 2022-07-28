@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "62de557e3dd2111e38066c52"
+  },
+  "Category": "Breakfast",
+  "Name": "Weight Gain Meal 1",
+  "FoodItems": [
+    {
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "250g",
+      "_id": {
+        "$oid": "62dfa7bf0fa857fc24ff5bdb"
+      }
+    },
+    {
+      "FoodId": {
+        "$oid": "62dd3d89f0505734904464f0"
+      },
+      "Quantity": "50g",
+      "_id": {
+        "$oid": "62dfa7bf0fa857fc24ff5bdc"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-25T08:34:06.815Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-26T08:37:19.693Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62de55c13dd2111e38066c5b"
+  },
+  "Category": "Breakfast",
+  "Name": "Weight Gain Meal 2",
+  "FoodItems": [
+    {
+      "_id": {
+        "$oid": "62de55c13dd2111e38066c5c"
+      },
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "5"
+    },
+    {
+      "_id": {
+        "$oid": "62de5775468952181c17bd15"
+      },
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "5"
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-25T08:35:13.108Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-25T08:42:29.685Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62de599203a8b475eda85f6a"
+  },
+  "Name": "Weight Gain Meal 2",
+  "Category": "Lunch",
+  "FoodItems": [
+    {
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "5",
+      "_id": {
+        "$oid": "62de599203a8b475eda85f6b"
+      }
+    },
+    {
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "5",
+      "_id": {
+        "$oid": "62de599303a8b475eda85f6d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-25T08:51:30.227Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-25T08:51:31.330Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62de59bf03a8b475eda85f71"
+  },
+  "Name": "Weight Gain Meal 2",
+  "Category": "Evening Snack",
+  "FoodItems": [
+    {
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "5",
+      "_id": {
+        "$oid": "62de59bf03a8b475eda85f72"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-25T08:52:15.591Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-25T08:52:15.591Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62df9d513706b6a5e1359f33"
+  },
+  "Name": "Weight Losing Meal 1",
+  "Category": "Evening Snack",
+  "FoodItems": [
+    {
+      "FoodId": {
+        "$oid": "62dd3dadf0505734904464f2"
+      },
+      "Quantity": "200g",
+      "_id": {
+        "$oid": "62df9d703706b6a5e1359f36"
+      }
+    },
+    {
+      "FoodId": {
+        "$oid": "62dd3d89f0505734904464f0"
+      },
+      "Quantity": "200g",
+      "_id": {
+        "$oid": "62df9df4184673a5b3837509"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-26T07:52:49.435Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-26T07:55:32.714Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62dfa6eb507b784ba5b68ac7"
+  },
+  "Name": "Weight Losing Meal 1",
+  "Category": "Breakfast",
+  "FoodItems": [
+    {
+      "FoodId": {
+        "$oid": "62dd3d89f0505734904464f0"
+      },
+      "Quantity": "200g",
+      "_id": {
+        "$oid": "62dfa6eb507b784ba5b68ac8"
+      }
+    },
+    {
+      "FoodId": {
+        "$oid": "62dd3d89f0505734904464f0"
+      },
+      "Quantity": "200g",
+      "_id": {
+        "$oid": "62dfa785507b784ba5b68aca"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-26T08:33:47.977Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-26T08:36:21.897Z"
+  },
+  "__v": 0
+}]

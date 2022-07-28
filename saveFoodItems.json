@@ -1,0 +1,139 @@
+{
+    "status": "200",
+    "message": "Success",
+    "success": true,
+    "data": {
+        "FoodItems": [
+            {
+                "Name": "Cabbage (Boiled)",
+                "Calories": 10,
+                "Protein": 1,
+                "Carb": 1,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 96,
+                "_id": "62e0d1ea47b410f15df1eeba",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.241Z",
+                "updatedAt": "2022-07-27T05:49:30.241Z"
+            },
+            {
+                "Name": "Carrot (Boiled)",
+                "Calories": 20,
+                "Protein": 0.6,
+                "Carb": 4,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 91,
+                "_id": "62e0d1ea47b410f15df1eebb",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.241Z",
+                "updatedAt": "2022-07-27T05:49:30.241Z"
+            },
+            {
+                "Name": "Cauliflower (Boiled)",
+                "Calories": 10,
+                "Protein": 1.5,
+                "Carb": 1,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 93,
+                "_id": "62e0d1ea47b410f15df1eebc",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.241Z",
+                "updatedAt": "2022-07-27T05:49:30.241Z"
+            },
+            {
+                "Name": "Cucumber (Raw)",
+                "Calories": 10,
+                "Protein": 0.6,
+                "Carb": 8,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 96,
+                "_id": "62e0d1ea47b410f15df1eebd",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.242Z",
+                "updatedAt": "2022-07-27T05:49:30.242Z"
+            },
+            {
+                "Name": "Peas (Boiled)",
+                "Calories": 50,
+                "Protein": 5,
+                "Carb": 8,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 80,
+                "_id": "62e0d1ea47b410f15df1eebe",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.242Z",
+                "updatedAt": "2022-07-27T05:49:30.242Z"
+            },
+            {
+                "Name": "Tomatoes",
+                "Calories": 15,
+                "Protein": 1,
+                "Carb": 3,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 83,
+                "_id": "62e0d1ea47b410f15df1eebf",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.242Z",
+                "updatedAt": "2022-07-27T05:49:30.242Z"
+            },
+            {
+                "Name": "Potatoes (Boiled)",
+                "Calories": 80,
+                "Protein": 1,
+                "Carb": 22,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 77,
+                "_id": "62e0d1ea47b410f15df1eec0",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.242Z",
+                "updatedAt": "2022-07-27T05:49:30.242Z"
+            },
+            {
+                "Name": "Apples",
+                "Calories": 45,
+                "Protein": 0.3,
+                "Carb": 12,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 84,
+                "_id": "62e0d1ea47b410f15df1eec1",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.242Z",
+                "updatedAt": "2022-07-27T05:49:30.242Z"
+            },
+            {
+                "Name": "Bananas",
+                "Calories": 80,
+                "Protein": 1,
+                "Carb": 20,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 70,
+                "_id": "62e0d1ea47b410f15df1eec2",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.243Z",
+                "updatedAt": "2022-07-27T05:49:30.243Z"
+            },
+            {
+                "Name": "Grapes",
+                "Calories": 60,
+                "Protein": 0.6,
+                "Carb": 12,
+                "Fat": 0,
+                "AcceptedUnits": "g",
+                "ItemWeight": 81,
+                "_id": "62e0d1ea47b410f15df1eec3",
+                "__v": 0,
+                "createdAt": "2022-07-27T05:49:30.243Z",
+                "updatedAt": "2022-07-27T05:49:30.243Z"
+            }
+        ]
+    }
+}

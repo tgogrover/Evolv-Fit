@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "62dea6e32a7cb2fbd826a9ed"
+  },
+  "Name": "tushar grover",
+  "Email": "grow393@gmail.com",
+  "CalorieRequirement": 55,
+  "MealPlan": [
+    {
+      "Day": "Tuesday",
+      "Meals": {
+        "$oid": "62de557e3dd2111e38066c52"
+      },
+      "_id": {
+        "$oid": "62dfa3fc5d1c87ae37876977"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-25T14:21:23.553Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-26T08:21:16.805Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62dea7512a7cb2fbd826a9f6"
+  },
+  "Name": "manish grover",
+  "Email": "grow393@gmail.com",
+  "CalorieRequirement": 50,
+  "MealPlan": [
+    {
+      "Day": "Tuesday",
+      "Meals": {
+        "$oid": "62de599203a8b475eda85f6a"
+      },
+      "_id": {
+        "$oid": "62dea7512a7cb2fbd826a9f7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-25T14:23:13.672Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-25T14:23:13.672Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62dfa5dd891841921d65380f"
+  },
+  "Name": "TGO grover",
+  "Email": "ramk6752@gmail.com",
+  "CalorieRequirement": 50,
+  "MealPlan": [
+    {
+      "Day": "Tuesday",
+      "Meals": {
+        "$oid": "62de599203a8b475eda85f6a"
+      },
+      "_id": {
+        "$oid": "62dfa5dd891841921d653810"
+      }
+    },
+    {
+      "Day": "Tuesday",
+      "Meals": {
+        "$oid": "62de599203a8b475eda85f6a"
+      },
+      "_id": {
+        "$oid": "62dfa6070e38db4ad06c0b61"
+      }
+    },
+    {
+      "Day": "Monday",
+      "Meals": {
+        "$oid": "62de599203a8b475eda85f6a"
+      },
+      "_id": {
+        "$oid": "62dfa61b0e38db4ad06c0b63"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-26T08:29:17.037Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-26T08:30:19.927Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62dfa691507b784ba5b68abc"
+  },
+  "Name": "Manish grover",
+  "Email": "ramk6752@gmail.com",
+  "CalorieRequirement": 50,
+  "MealPlan": [
+    {
+      "Day": "Monday",
+      "Meals": {
+        "$oid": "62de599203a8b475eda85f6a"
+      },
+      "_id": {
+        "$oid": "62dfa691507b784ba5b68abd"
+      }
+    },
+    {
+      "Day": "Tuesday",
+      "Meals": {
+        "$oid": "62de599203a8b475eda85f6a"
+      },
+      "_id": {
+        "$oid": "62dfa6a3507b784ba5b68abf"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-07-26T08:32:17.286Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-26T08:32:35.079Z"
+  },
+  "__v": 0
+}]

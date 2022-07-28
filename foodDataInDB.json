@@ -1,0 +1,361 @@
+[{
+  "_id": {
+    "$oid": "62dd3d89f0505734904464f0"
+  },
+  "AcceptedUnits": "g",
+  "Name": "Margarine",
+  "Carb": 0,
+  "Calories": 740,
+  "Protein": 0,
+  "Fat": 81,
+  "ItemWeight": 64,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-24T12:39:37.572Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-24T12:39:37.572Z"
+  }
+},{
+  "_id": {
+    "$oid": "62dd3dadf0505734904464f2"
+  },
+  "AcceptedUnits": "g",
+  "Name": "Milk",
+  "Carb": 65,
+  "Calories": 16,
+  "Protein": 3.3,
+  "Fat": 4,
+  "ItemWeight": 87,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-24T12:40:13.709Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-24T12:40:13.709Z"
+  }
+},{
+  "_id": {
+    "$oid": "62dd3dadf0505734904464f3"
+  },
+  "AcceptedUnits": "g",
+  "Name": "Butter",
+  "Carb": 7,
+  "Calories": 740,
+  "Protein": 0,
+  "Fat": 82,
+  "ItemWeight": 15,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-24T12:40:13.710Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-24T12:40:13.710Z"
+  }
+},{
+  "_id": {
+    "$oid": "62dd3dadf0505734904464f4"
+  },
+  "AcceptedUnits": "g",
+  "Name": "Cream",
+  "Carb": 3,
+  "Calories": 210,
+  "Protein": 0,
+  "Fat": 21,
+  "ItemWeight": 72,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-24T12:40:13.710Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-24T12:40:13.710Z"
+  }
+},{
+  "_id": {
+    "$oid": "62dd3dadf0505734904464f5"
+  },
+  "AcceptedUnits": "g",
+  "Name": "Cheese",
+  "Carb": 0,
+  "Calories": 310,
+  "Protein": 22,
+  "Fat": 25,
+  "ItemWeight": 44,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-24T12:40:13.711Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-24T12:40:13.711Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0cd9a47b410f15df1eeb4"
+  },
+  "Name": "Eggs",
+  "Calories": 150,
+  "Protein": 12,
+  "Carb": 0,
+  "Fat": 4,
+  "AcceptedUnits": "g",
+  "ItemWeight": 75,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:31:06.041Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:31:06.041Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0cd9a47b410f15df1eeb5"
+  },
+  "Name": "Chicken (Roast)",
+  "Calories": 150,
+  "Protein": 25,
+  "Carb": 0,
+  "Fat": 5,
+  "AcceptedUnits": "g",
+  "ItemWeight": 55,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:31:06.043Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:31:06.043Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0cd9a47b410f15df1eeb6"
+  },
+  "Name": "Pork (Grilled)",
+  "Calories": 340,
+  "Protein": 29,
+  "Carb": 3,
+  "Fat": 24,
+  "AcceptedUnits": "g",
+  "ItemWeight": 36,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:31:06.043Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:31:06.043Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0cd9a47b410f15df1eeb7"
+  },
+  "Name": "Fish",
+  "Calories": 220,
+  "Protein": 20,
+  "Carb": 8,
+  "Fat": 10,
+  "AcceptedUnits": "g",
+  "ItemWeight": 60,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:31:06.043Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:31:06.043Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0cd9a47b410f15df1eeb8"
+  },
+  "Name": "Beans (Boiled)",
+  "Calories": 3,
+  "Protein": 2,
+  "Carb": 0,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 90,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:31:06.044Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:31:06.044Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eeba"
+  },
+  "Name": "Cabbage (Boiled)",
+  "Calories": 10,
+  "Protein": 1,
+  "Carb": 1,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 96,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.241Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.241Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eebb"
+  },
+  "Name": "Carrot (Boiled)",
+  "Calories": 20,
+  "Protein": 0.6,
+  "Carb": 4,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 91,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.241Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.241Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eebc"
+  },
+  "Name": "Cauliflower (Boiled)",
+  "Calories": 10,
+  "Protein": 1.5,
+  "Carb": 1,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 93,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.241Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.241Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eebd"
+  },
+  "Name": "Cucumber (Raw)",
+  "Calories": 10,
+  "Protein": 0.6,
+  "Carb": 8,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 96,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eebe"
+  },
+  "Name": "Peas (Boiled)",
+  "Calories": 50,
+  "Protein": 5,
+  "Carb": 8,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 80,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eebf"
+  },
+  "Name": "Tomatoes",
+  "Calories": 15,
+  "Protein": 1,
+  "Carb": 3,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 83,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eec0"
+  },
+  "Name": "Potatoes (Boiled)",
+  "Calories": 80,
+  "Protein": 1,
+  "Carb": 22,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 77,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eec1"
+  },
+  "Name": "Apples",
+  "Calories": 45,
+  "Protein": 0.3,
+  "Carb": 12,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 84,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.242Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eec2"
+  },
+  "Name": "Bananas",
+  "Calories": 80,
+  "Protein": 1,
+  "Carb": 20,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 70,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.243Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.243Z"
+  }
+},{
+  "_id": {
+    "$oid": "62e0d1ea47b410f15df1eec3"
+  },
+  "Name": "Grapes",
+  "Calories": 60,
+  "Protein": 0.6,
+  "Carb": 12,
+  "Fat": 0,
+  "AcceptedUnits": "g",
+  "ItemWeight": 81,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2022-07-27T05:49:30.243Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-27T05:49:30.243Z"
+  }
+}]
